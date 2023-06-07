@@ -3,11 +3,11 @@ BestMovies
 A little app that allows you to keep track of your movie bucketlist .
 
 Technolgies used:
-Vue.js - Options API
-Quasar Framework
-Vue Router
-Pinia
-Firebase - Realtime DB
+Vue.js - Options API.
+Quasar Framework.
+Vue Router.
+Pinia.
+Firebase - Realtime DB.
 
 ## Recommended IDE Setup
 
