@@ -58,7 +58,7 @@ export const useMoviesStore = defineStore("movies", () => {
 
       movie.watched = true;
       const movieRef = doc(db, "movies", id);
-
+      console.log("pula");
       await updateDoc(movieRef, { watched: true });
     } catch (error) {
       console.log("error changing watch status");
@@ -169,7 +169,6 @@ export const usePlaylistStore = defineStore("playlists", () => {
     }
 
     for (const s of series) {
-      console.log(s);
       const docRef = doc(db, "movies", s);
 
       const docSnap = await getDoc(docRef);
